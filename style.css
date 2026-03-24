@@ -454,3 +454,20 @@ border:none;
 grid-template-columns:1fr;
 }
 }
+
+@media(max-width:768px){
+
+.nav-actions{
+display:flex;
+flex-direction:row;
+gap:10px;
+justify-content:flex-end;
+}
+
+.nav-actions .btn{
+flex:1;
+padding:10px;
+font-size:14px;
+}
+
+}
