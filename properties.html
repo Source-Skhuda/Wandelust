@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Property | Wanderlust Haven</title>
+
+<link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="header">
+<div class="container nav-container">
+
+<div class="logo">
+<img src="logo-re.png" class="logo-img">
+<span class="brand">Wanderlust Haven</span>
+</div>
+
+<nav class="nav" id="nav">
+<a href="index.html">Home</a>
+<a href="#">About</a>
+<a href="properties.html">Properties</a>
+<a href="#">Contact</a>
+</nav>
+
+<div class="nav-actions">
+<button class="btn btn-outline">Sign In</button>
+<button class="btn btn-primary">Book Now</button>
+</div>
+
+<div class="hamburger" id="hamburger">
+<span></span><span></span><span></span>
+</div>
+
+</div>
+</header>
+
+<!-- PROPERTY HERO -->
+<section class="section">
+<div class="container">
+
+<h1>Oceanview Luxury Villa</h1>
+<p>Bali, Indonesia · 4 Guests · 2 Bedrooms · 2 Baths</p>
+
+<!-- IMAGE SLIDER -->
+<div class="slider">
+<img id="slider-img" src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg">
+
+<div class="slider-controls">
+<button onclick="prevSlide()">‹</button>
+<button onclick="nextSlide()">›</button>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- CONTENT + BOOKING -->
+<section class="section dark">
+<div class="container property-layout">
+
+<!-- LEFT CONTENT -->
+<div>
+
+<h2>About this place</h2>
+<p>
+Experience ultimate luxury in this ocean-facing villa featuring modern design, private pool, and breathtaking views.
+Perfect for couples and remote professionals.
+</p>
+
+<h3>Amenities</h3>
+<ul class="amenities">
+<li>✔ WiFi</li>
+<li>✔ Private Pool</li>
+<li>✔ Air Conditioning</li>
+<li>✔ Workspace</li>
+<li>✔ Kitchen</li>
+</ul>
+
+</div>
+
+<!-- BOOKING PANEL -->
+<div class="booking-card">
+
+<h3>$420 / night</h3>
+
+<label>Check-in</label>
+<input type="date" id="checkin">
+
+<label>Check-out</label>
+<input type="date" id="checkout">
+
+<label>Guests</label>
+<input type="number" value="2" min="1">
+
+<div class="total">
+<p>Total: <span id="totalPrice">$0</span></p>
+</div>
+
+<button class="btn btn-primary full">Reserve</button>
+
+</div>
+
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+<div class="container footer-grid">
+
+<div>
+<div class="logo">
+<img src="logo-re.png" class="logo-img">
+<span class="brand">Wanderlust Haven</span>
+</div>
+<p>Luxury stays designed for meaningful travel experiences.</p>
+</div>
+
+<div>
+<h4>Explore</h4>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="properties.html">Properties</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<div>
+<h4>Contact</h4>
+<p>reservations@wanderlusthaven.com</p>
+<p>+1 (555) 123-4567</p>
+<p>Nelspruit, Mpumalanga</p>
+</div>
+
+</div>
+
+<p class="footer-bottom">© 2026 Wanderlust Haven</p>
+</footer>
+
+</body>
+</html>
